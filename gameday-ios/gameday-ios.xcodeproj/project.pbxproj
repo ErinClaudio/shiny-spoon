@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2CCB17A32D53B25A00EFC4FB /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 2CCB17A22D53B25A00EFC4FB /* Turbo */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2CCB17892D53AE0400EFC4FB /* gameday-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gameday-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCB17A32D53B25A00EFC4FB /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "gameday-ios";
 			packageProductDependencies = (
+				2CCB17A22D53B25A00EFC4FB /* Turbo */,
 			);
 			productName = "gameday-ios";
 			productReference = 2CCB17892D53AE0400EFC4FB /* gameday-ios.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 2CCB17802D53AE0400EFC4FB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2CCB17A12D53B25A00EFC4FB /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2CCB178A2D53AE0400EFC4FB /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CCB17A12D53B25A00EFC4FB /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CCB17A22D53B25A00EFC4FB /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CCB17A12D53B25A00EFC4FB /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2CCB17812D53AE0400EFC4FB /* Project object */;
 }
