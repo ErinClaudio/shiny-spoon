@@ -6,7 +6,7 @@ module Turbo
           "rules": [
             {
               "patterns": [
-                "/new$",
+                "/new$", 
                 "/edit$",
                 "/sign_in",
                 "/sign_up"
